@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F0B3CA42EA2C5D700C7F28C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F0B3CA32EA2C5D700C7F28C /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4F0B3C952EA2C4E900C7F28C /* mappr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mappr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0B3CA32EA2C5D700C7F28C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		4F0B3C8C2EA2C4E900C7F28C = {
 			isa = PBXGroup;
 			children = (
+				4F0B3CA32EA2C5D700C7F28C /* README.md */,
 				4F0B3C972EA2C4E900C7F28C /* mappr */,
 				4F0B3C962EA2C4E900C7F28C /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0B3CA42EA2C5D700C7F28C /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

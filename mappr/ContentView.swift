@@ -1,21 +1,9 @@
-//
-//  ContentView.swift
-//  mappr
-//
-//  Created by Hashim Khan on 10/17/25.
-//
-
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        EventMapView()
     }
 }
 
